@@ -38,12 +38,20 @@
         <h5 class="offcanvas-title" id="offcanvasTopLabel">Título</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <div class="offcanvas-body" id="offcanvasBody">
+      <div class="offcanvas-body " id="offcanvasBody">
         <p id="offcanvaDescription"></p>
-        <p class= "" id="offcanvaCategories"></p>
-        <div> </div>
+        <hr>
+        <div class="d-flex justify-content-between">
+          <p class="text-secondary" id="offcanvaCategories"></p>
+          <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </button>
+          <ul id="ul-dropdown-menu" class="dropdown-menu" aria-labelledby="dropdownMenuButton1"></ul>
+        </div>
       </div>
     </div>
+
 
   </main>
 
